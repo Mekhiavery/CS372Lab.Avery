@@ -1,0 +1,16 @@
+cmake_minimum_required(VERSION 3.12)
+project(Assignment07)
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED True)
+include_directories(include)
+
+add_executable(ListTest source/ListTest.cpp)
+add_executable(TreeParentTest source/TreeParentTest.cpp)
+add_executable(TreeLevelTest source/TreeLevelTest.cpp)
+add_executable(TreePruneTest source/TreePruneTest.cpp)
+
+enable_testing()
+add_test(NAME ListTest COMMAND ListTest)
+add_test(NAME TreeParentTest COMMAND TreeParentTest)
+add_test(NAME TreeLevelTest COMMAND TreeLevelTest)
+add_test(NAME TreePruneTest COMMAND TreePruneTest)

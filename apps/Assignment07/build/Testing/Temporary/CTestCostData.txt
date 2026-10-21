@@ -1,0 +1,5 @@
+ListTest 2 0.0038413
+TreeParentTest 2 0.00791235
+TreeLevelTest 2 0.00709675
+TreePruneTest 2 0.0076021
+---

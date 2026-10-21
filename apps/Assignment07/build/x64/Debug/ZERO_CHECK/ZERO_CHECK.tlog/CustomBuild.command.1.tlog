@@ -1,0 +1,10 @@
+^C:\USERS\MEKHI\SOURCE\REPOS\CS372LAB.AVERY\APPS\ASSIGNMENT07\BUILD\CMAKEFILES\488C3431860CA264F13822F7E172B663\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/mekhi/source/repos/CS372Lab.Avery/apps/Assignment07 -BC:/Users/mekhi/source/repos/CS372Lab.Avery/apps/Assignment07/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/mekhi/source/repos/CS372Lab.Avery/apps/Assignment07/build/Assignment07.slnx
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,7 @@
+C:/Users/mekhi/source/repos/CS372Lab.Avery/apps/Assignment07/build/CMakeFiles/ListTest.dir
+C:/Users/mekhi/source/repos/CS372Lab.Avery/apps/Assignment07/build/CMakeFiles/TreeParentTest.dir
+C:/Users/mekhi/source/repos/CS372Lab.Avery/apps/Assignment07/build/CMakeFiles/TreeLevelTest.dir
+C:/Users/mekhi/source/repos/CS372Lab.Avery/apps/Assignment07/build/CMakeFiles/TreePruneTest.dir
+C:/Users/mekhi/source/repos/CS372Lab.Avery/apps/Assignment07/build/CMakeFiles/RUN_TESTS.dir
+C:/Users/mekhi/source/repos/CS372Lab.Avery/apps/Assignment07/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/mekhi/source/repos/CS372Lab.Avery/apps/Assignment07/build/CMakeFiles/ZERO_CHECK.dir

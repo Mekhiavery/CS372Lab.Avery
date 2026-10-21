@@ -1,0 +1,59 @@
+ASSIGNMENT 07 - AI CODE REVIEW
+Mekhi Avery
+AI tool: ChatGPT (OpenAI, GPT-6)
+Reviewed file: apps/Assignment07/include/Tree.hpp (Part 2 version)
+
+1. PROMPT GIVEN TO THE AI TOOL
+
+Please review my C++ Tree.hpp file for the "Growing a Tree" assignment.
+This is based on my professor's binary search tree example. I added
+weak_ptr parent links so every node can point back to its parent.
+Please explain the strengths, weaknesses, and possible problems in
+simple language. Suggest changes that would make the Tree class safer
+or easier to test without replacing the professor's design.
+
+2. RESULTING AI REVIEW
+
+Strengths:
+- The Tree uses shared_ptr for child nodes, so memory is managed
+  automatically instead of with new and delete.
+- Parent links use weak_ptr, which prevents parent-child ownership
+  cycles from keeping nodes in memory.
+- insert() returns a new Tree instead of modifying the original.
+- The class supports searching, copying, moving, and tree traversals.
+
+Weaknesses and possible problems:
+- Tree building copies whole subtrees to keep parent links correct.
+  This works, but it can be slow when the Tree becomes large.
+- The Tree is not balanced, so inserting values in an unlucky order
+  can make it tall and slow down searches and inserts.
+- The root() function originally used assert() to check for an empty
+  tree. In a build with assertions turned off, calling root() on an
+  empty tree could cause a crash.
+- The parent-pointer test checked certain nodes, but did not check
+  that every node had the correct parent link.
+- A very deep Tree could cause problems with recursive operations.
+
+Suggestions:
+- Make root() throw an exception when the Tree is empty.
+- Add a function that checks every parent pointer and extend the tests.
+- Keep the current Tree design for this assignment, but note that
+  full subtree copying and lack of balancing limit performance.
+- Run both the new tests and the professor's original unit tests.
+
+3. CHANGES MADE BASED ON THE REVIEW
+
+I changed root() to throw std::out_of_range when the Tree is empty.
+I also added validParentLinks(), which checks the parent link on every
+node using a helper function. Then I updated TreeParentTest.cpp to
+check the whole Tree, an empty Tree, and duplicate insertion.
+
+I did not redesign the Tree to make it balanced or eliminate the
+copying, because this assignment is supposed to follow the professor's
+sample Tree class. Those are still possible improvements in the future.
+
+4. TESTING
+
+I built and ran the local ListTest and TreeParentTest programs.
+Both passed after the Part 3 changes. These are local tests; the
+professor's complete Google Test suite has not been verified here.

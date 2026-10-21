@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>C:\Users\mekhi\source\repos\CS372Lab.Avery\apps\Assignment07\build\x64\Debug\ZERO_CHECK</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\mekhi\source\repos\CS372Lab.Avery\apps\Assignment07\build\Debug\ListTest.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\mekhi\source\repos\CS372Lab.Avery\apps\Assignment07\build\Debug\TreeLevelTest.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\mekhi\source\repos\CS372Lab.Avery\apps\Assignment07\build\Debug\TreeParentTest.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\mekhi\source\repos\CS372Lab.Avery\apps\Assignment07\build\Debug\TreePruneTest.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\mekhi\source\repos\CS372Lab.Avery\apps\Assignment07\build\x64\Debug\ALL_BUILD</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

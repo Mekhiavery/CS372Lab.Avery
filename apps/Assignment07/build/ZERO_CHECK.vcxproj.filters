@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\mekhi\source\repos\CS372Lab.Avery\apps\Assignment07\build\CMakeFiles\488c3431860ca264f13822f7e172b663\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{1DB68622-B736-317D-8E8B-9D106704B7BB}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

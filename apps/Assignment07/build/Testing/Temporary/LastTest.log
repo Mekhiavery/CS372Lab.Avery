@@ -1,0 +1,75 @@
+Start testing: Oct 20 20:54 Central Daylight Time
+----------------------------------------------------------
+1/4 Testing: ListTest
+1/4 Test: ListTest
+Command: "C:/Users/mekhi/source/repos/CS372Lab.Avery/apps/Assignment07/build/Debug/ListTest.exe"
+Directory: C:/Users/mekhi/source/repos/CS372Lab.Avery/apps/Assignment07/build
+"ListTest" start time: Oct 20 20:54 Central Daylight Time
+Output:
+----------------------------------------------------------
+List tests passed
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"ListTest" end time: Oct 20 20:54 Central Daylight Time
+"ListTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/4 Testing: TreeParentTest
+2/4 Test: TreeParentTest
+Command: "C:/Users/mekhi/source/repos/CS372Lab.Avery/apps/Assignment07/build/Debug/TreeParentTest.exe"
+Directory: C:/Users/mekhi/source/repos/CS372Lab.Avery/apps/Assignment07/build
+"TreeParentTest" start time: Oct 20 20:54 Central Daylight Time
+Output:
+----------------------------------------------------------
+Growing a Tree - Part 2
+Tree: [45 74 100 28 32 44 ]
+Size: 6
+All Tree parent tests passed!
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"TreeParentTest" end time: Oct 20 20:54 Central Daylight Time
+"TreeParentTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/4 Testing: TreeLevelTest
+3/4 Test: TreeLevelTest
+Command: "C:/Users/mekhi/source/repos/CS372Lab.Avery/apps/Assignment07/build/Debug/TreeLevelTest.exe"
+Directory: C:/Users/mekhi/source/repos/CS372Lab.Avery/apps/Assignment07/build
+"TreeLevelTest" start time: Oct 20 20:54 Central Daylight Time
+Output:
+----------------------------------------------------------
+Growing a Tree - Part 4
+Level order: 45 74 28 100 32 44 
+All level traversal tests passed!
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"TreeLevelTest" end time: Oct 20 20:54 Central Daylight Time
+"TreeLevelTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/4 Testing: TreePruneTest
+4/4 Test: TreePruneTest
+Command: "C:/Users/mekhi/source/repos/CS372Lab.Avery/apps/Assignment07/build/Debug/TreePruneTest.exe"
+Directory: C:/Users/mekhi/source/repos/CS372Lab.Avery/apps/Assignment07/build
+"TreePruneTest" start time: Oct 20 20:54 Central Daylight Time
+Output:
+----------------------------------------------------------
+Growing a Tree - Part 5
+Original: 45 74 100 28 32 44 
+Pruned:   45 74 28 32 
+All prune tests passed!
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"TreePruneTest" end time: Oct 20 20:54 Central Daylight Time
+"TreePruneTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Oct 20 20:54 Central Daylight Time

@@ -1,0 +1,3 @@
+C:/Users/mekhi/source/repos/CS372Lab.Avery/apps/Assignment06/out/build/x64-Debug/CMakeFiles/ListTest.dir
+C:/Users/mekhi/source/repos/CS372Lab.Avery/apps/Assignment06/out/build/x64-Debug/CMakeFiles/edit_cache.dir
+C:/Users/mekhi/source/repos/CS372Lab.Avery/apps/Assignment06/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir
